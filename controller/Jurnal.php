@@ -37,10 +37,10 @@ class Jurnal extends BaseController
     {
         return view('T1Nara\confirming-submission');
     }
-        public function onClikSave()
+    /*    public function onClikSave()
     {
         return view('T1Nara/content');
-    }
+    }*/
 
     public function ViewDataSubmission($id = 12517, $date = "03-10", $sec = "ART", $author = "Niani", $title = "Judul jurnal", $status = "Completed")
     {
